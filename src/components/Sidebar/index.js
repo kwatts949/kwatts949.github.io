@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      <img src={memoji} />
+      <img src={memoji} alt='A memoji' />
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
