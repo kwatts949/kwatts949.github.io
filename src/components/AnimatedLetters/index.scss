@@ -5,17 +5,17 @@
   animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-  min-width: 10px;
+  min-width: 15px;
 }
 
 .text-animate-hover {
-  min-width: 10px;
+  min-width: 15px;
   display: inline-block;
   animation-fill-mode: both;
 
   &:hover {
     animation: rubberBand 1s;
-    color: #ffd700;
+    color: #b871a5;
   }
 }
 
