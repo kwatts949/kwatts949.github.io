@@ -18,17 +18,18 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'SERVICE',
+        `${process.env.REACT_APP_SERVICE}`,
         'template_e7opkfb',
         form.current,
-        `API_KEY`
+        `${process.env.REACT_APP_API_KEY}`
       )
       .then(
-        (result) => {
-          console.log(result.text)
+        () => {
+          alert('Successfully submitted')
+          window.location.reload(false)
         },
-        (error) => {
-          console.log(error.text)
+        () => {
+          alert('Failed to submit')
         }
       )
   }
