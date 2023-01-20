@@ -7,8 +7,9 @@ Personal Website using REACT
 <div>
 
 <h2 align="center">
-<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#Tech'> Tech </a> <span> · </span>
-<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#Spec'> Spec </a>
+<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#tech'> Tech </a> <span> · </span>
+<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#spec'> Spec </a> <span> · </span>
+<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#to-do'> To Do </a>
 <h2>
 
 </div>
@@ -19,5 +20,14 @@ Personal Website using REACT
 ![Image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 # Spec
+The website is fully deployed <a href="https://kwatts949.github.io/">here.</a>
+
+It's a work in progress but I'm hoping to add to it over the coming weeks.
 
 # To do
+* Add about me section
+* Add animation to about section
+* Add portfolio
+* Add CV
+
+
