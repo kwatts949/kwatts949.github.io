@@ -1,7 +1,7 @@
 .home-page {
   .text-zone {
     position: absolute;
-    left: 30%;
+    left: 20%;
     top: 50%;
     transform: translateY(-50%);
     width: 40%;
@@ -10,19 +10,17 @@
 
   h1 {
     color: #fff;
-    font-size: 150px;
-    line-height: 106px;
+    font-size: 200px;
+    line-height: 138px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
 
     img {
-      margin-left: 200px;
+      margin-left: 0px;
       opacity: 0;
-      width: 50px;
+      width: 100px;
       height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
     }
   }
 
@@ -58,21 +56,11 @@
 
   .logo-container {
     position: relative;
-    width: 50px;
+    width: 10px;
     height: auto;
     top: 50px;
-    right: 0;
+    right: 200px;
     box-sizing: border-box;
-    margin: auto;
-    left: 0;
-  }
-
-  .logo-container svg {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
     margin: auto;
   }
 }

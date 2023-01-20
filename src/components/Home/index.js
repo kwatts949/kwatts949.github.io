@@ -21,7 +21,7 @@ const Home = () => {
           <span className={letterClass}>H</span>
           <span className={`${letterClass} _12`}>i,</span>
           <br></br>
-          <span className={`${letterClass} _13`}>i</span>
+          <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>
           <AnimatedLetters
             letterClass={letterClass}
@@ -32,9 +32,9 @@ const Home = () => {
         <h2>Full Stack Developer | REACT | JS | Ruby</h2>
         <Link to="/contact" className="flat-button">
           Get in touch!
-        </Link>
+  </Link>
       </div>
-      <Logo/>
+      <Logo />
     </div>
   )
 }
