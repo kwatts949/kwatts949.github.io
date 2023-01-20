@@ -7,9 +7,9 @@ Personal Website using REACT
 <div>
 
 <h2 align="center">
-<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#tech'> Tech </a> <span> · </span>
-<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#spec'> Spec </a> <span> · </span>
-<a href='https://github.com/kwatts949/personal-website/blob/main/README.md#to-do'> To Do </a>
+<a href='https://github.com/kwatts949/kwatts949.github.io/blob/main/README.md#tech'> Tech </a> <span> · </span>
+<a href='https://github.com/kwatts949/kwatts949.github.io/blob/main/README.md#spec'> Spec </a> <span> · </span>
+<a href='https://github.com/kwatts949/kwatts949.github.io/blob/main/README.md#to-do'> To Do </a>
 <h2>
 
 </div>
