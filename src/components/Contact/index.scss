@@ -55,21 +55,26 @@
     box-sizing: border-box;
     min-height: 150px;
   }
+}
 
-  .flat-button {
-    color: #b871a5;
-    font-size: 11px;
-    letter-spacing: 3px;
-    text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid #b871a5;
-    float: right;
-    border-radius: 4px;
-    background: 0 0;
-    text-transform: uppercase;
-    float: right;
-    text-align: center;
-    margin-right: 10px;
+.flat-button {
+  color: #b871a5;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #b871a5;
+  float: right;
+  border-radius: 4px;
+  background: 0 0;
+  text-transform: uppercase;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+
+  &:hover {
+    background: #b871a5;
+    color: #333;
   }
 }
 

@@ -26,7 +26,6 @@ const Contact = () => {
       .then(
         () => {
           alert('Successfully submitted')
-          //window.location = window.location
           window.location.reload(false)
         },
         () => {
