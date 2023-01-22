@@ -26,6 +26,7 @@ const Contact = () => {
       .then(
         () => {
           alert('Successfully submitted')
+          //window.location = window.location
           window.location.reload(false)
         },
         () => {
@@ -45,7 +46,8 @@ const Contact = () => {
           />
         </h1>
         <p>
-          I love hearing from people, whether its about coding, cats or anything else. If you have something to say, get in touch!
+          I love hearing from people, whether its about coding, cats or anything
+          else. If you have something to say, get in touch!
         </p>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
