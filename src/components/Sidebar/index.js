@@ -2,13 +2,18 @@ import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import memoji from '../../assets/images/MeMoji.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faBookOpen,
+  faEnvelope,
+  faHome,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      <img src={memoji} alt='A memoji' />
+      <img src={memoji} alt="A memoji" />
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
